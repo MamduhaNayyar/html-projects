@@ -1,0 +1,54 @@
+** start of index.html **
+
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+   <meta charset = "utf-8">
+   <title> Travel agency page </title>
+   <meta name= "description" content= "Explore the best travel deals and plan your dream vacation with our expert travel agency.">
+</head> 
+<body>
+<h1> Welcome to Our Travel Agency</h1>
+<p> Explore amazing travel opportunities to the world's best destinations with us!</p>
+<h2> Packages </h2>
+<p> Group Travels
+Travel with a group of people to popular destinations. It’s cost-effective, social, and usually has a fixed itinerary planned by the agency.
+
+1. Private Tours
+Customized trips designed just for you or your group. More flexible schedule, personalized experiences, and often a private guide.
+
+2. Adventure Packages
+Trips focused on outdoor activities like hiking, trekking, or exploring nature. Perfect for thrill-seekers.
+
+3. Luxury Packages
+High-end travel with premium accommodations, exclusive experiences, and first-class services.
+
+4. Family Packages
+Designed for families, with kid-friendly activities, comfortable lodging, and flexible timing. </p>
+<ul>
+<li><a href="https://www.freecodecamp.org/learn" target= "_blank">Group Travels</a></li>
+<li><a href="https://www.freecodecamp.org/learn" target= "_blank">Private Tours</a></li>
+</ul>
+<h2> Top Itineraries </h2>
+<figure>
+  <a href="https://www.freecodecamp.org/learn " target= "_blank"> 
+  <img src= "https://cdn.freecodecamp.org/curriculum/labs/colosseo.jpg" alt= "Figure showing museum"> </a>
+<figcaption> The colosseo! </figcaption>
+</figure>
+<figure>
+<a href="https://www.freecodecamp.org/learn " target= "_blank"> 
+  <img src= "https://cdn.freecodecamp.org/curriculum/labs/alps.jpg" alt= "Figure showing mountains"> </a>
+  <figcaption> The mountains! </figcaption>
+  </figure>
+  <figure>
+<a href="https://www.freecodecamp.org/learn " target= "_blank"> 
+  <img src= "https://cdn.freecodecamp.org/curriculum/labs/sea.jpg" alt= "Figure showing sea"> </a>
+  <figcaption> The sea! </figcaption>
+  </figure>
+</body>
+</html>
+
+
+
+** end of index.html **
+
