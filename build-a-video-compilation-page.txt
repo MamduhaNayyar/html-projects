@@ -1,0 +1,37 @@
+** start of index.html **
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Video Compilation Page</title>
+</head>
+
+<body>
+<main> 
+<h1> HOW TO MAKE PANCAKES </h1>
+<p> This website shows you how to make pancakes in 3 ways, so buckle up! </p>
+<section>
+<h2> How to make pancakes : way 1 </h2>
+<p> How to make pancakes without eggs</p>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/xXDFZG7Ey48?si=H4vJ9Y0B4Lts_Cxn" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</section>
+<section>
+<h2> How to make pancakes : way 2 </h2>
+<p> How to make pancakes without vanilla extract</p>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/V1Puc8Z3maE?si=kFaQgRQ5FOu-xsEH" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</section>
+<section>
+ <h2> How to make pancakes : way 3 </h2>
+ <p> How to make pancakes without milk</p>
+ <iframe width="560" height="315" src="https://www.youtube.com/embed/JHR7V5GtrVo?si=1EgEk7RsRRbqBGm2" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</section>
+</main>
+
+</body>
+
+</html>
+
+** end of index.html **
+
