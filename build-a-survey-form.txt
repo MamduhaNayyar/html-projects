@@ -1,0 +1,117 @@
+** start of index.html **
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Survey Form</title>
+  </head>
+  <body>
+    <h1 id="title">Skincare Routine Survey!</h1>
+    <p id="description">
+      Please fill out this form to share your thoughts and help us improve. We
+      value your feedback and appreciate your time!
+    </p>
+
+    <form id="survey-form">
+      <label id="name-label" for="name">Name (required):</label>
+      <input
+        type="text"
+        id="name"
+        name="name"
+        placeholder="e.g. John Doe"
+        required
+        maxlength="15"
+      />
+
+      <br />
+
+      <label id="email-label" for="email">Email (required):</label>
+      <input
+        type="email"
+        id="email"
+        name="email"
+        placeholder="example@gmail.com"
+        required
+        maxlength="50"
+      />
+
+      <br />
+
+      <label id="number-label" for="number">Age:</label>
+      <input
+        type="number"
+        id="number"
+        name="age"
+        placeholder="e.g. 19"
+        min="15"
+        max="50"
+      />
+
+      <br />
+
+      <label for="dropdown">Choose your favourite skincare ingredient:</label>
+      <select id="dropdown" name="skincare-ingredient" required>
+        <option value="hyaluronic-acid">Hyaluronic Acid</option>
+        <option value="vitamin-c">Vitamin C</option>
+        <option value="retinol">Retinol</option>
+      </select>
+
+      <br />
+
+      <p>What is your skin type?</p>
+      <input type="radio" id="dry" name="skin-type" value="dry" required />
+      <label for="dry">Dry</label><br />
+
+      <input type="radio" id="oily" name="skin-type" value="oily" />
+      <label for="oily">Oily</label><br />
+
+      <input
+        type="radio"
+        id="combination"
+        name="skin-type"
+        value="combination"
+      />
+      <label for="combination">Combination</label><br />
+
+      <input type="radio" id="sensitive" name="skin-type" value="sensitive" />
+      <label for="sensitive">Sensitive</label><br />
+
+      <br />
+
+      <p>Select all skin concerns you have:</p>
+      <input type="checkbox" id="acne" name="concerns" value="acne" />
+      <label for="acne">Acne</label><br />
+
+      <input type="checkbox" id="dryness" name="concerns" value="dryness" />
+      <label for="dryness">Dryness</label><br />
+
+      <input type="checkbox" id="aging" name="concerns" value="aging" />
+      <label for="aging">Aging</label><br />
+
+      <input type="checkbox" id="redness" name="concerns" value="redness" />
+      <label for="redness">Redness</label><br />
+
+      <br />
+
+      <label for="comments">Additional Comments:</label><br />
+      <textarea
+        id="comments"
+        name="comments"
+        rows="5"
+        cols="40"
+        placeholder="Tell us anything else you'd like to share"
+      ></textarea>
+
+      <br /><br />
+
+      <button type="submit" id="submit">Submit</button>
+    </form>
+  </body>
+</html>
+
+
+
+
+** end of index.html **
+
